@@ -92,7 +92,9 @@ footer {
     }    
 
     .button1 {
+        display: block;
         padding: 5px;
+        margin: auto;
         margin-top: 0px;
         border-radius: 10px 10px 10px 10px;
     }
