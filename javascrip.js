@@ -36,7 +36,7 @@ function fim(){
     var v = vetor.sort()
     res.innerHTML = ``
     
-    res.innerHTML += `<p>O menor valot é <strong>${v[0]}</strong></p>`
+    res.innerHTML += `<p>O menor valor é <strong>${v[0]}</strong></p>`
     res.innerHTML += `<p>O maior é <strong>${Math.max.apply(null, v )}</strong></p>`
     res.innerHTML += `<p>Foi adicionado <strong>${v.length}</strong> valores </p>`
     
