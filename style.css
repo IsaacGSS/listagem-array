@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(165, 95, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin: 25px;
+}
+
+section { 
+    /* position: relative;
+    top: 75px; */
+    background-color: rgb(201, 201, 201);
+    max-width: 550px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.178);
+    
+}
+
+#div_two, #div_one {
+    text-align: center;
+    margin: 12px;
+}
+
+#numeros {
+    border-radius: 10px 0px 0px 10px;
+    margin: 20px -5.5px;
+    width: 160px;
+    height: 20px;
+    border: 0;
+    border: 1px solid rgba(29, 29, 29, 0.623);
+}
+
+.button1 {
+    margin: 20px 0px;
+    width: 160px;
+    height: 24px;
+    border-radius: 0px 10px 10px 0px;
+    border: 0;
+    background-color: rgb(144, 55, 228);
+    border: 1px solid rgba(29, 29, 29, 0.623);
+}
+
+#lista{
+    width: 130px;
+    height: 155px;
+    border-radius: 15px 0px 0px 0px;
+    border: 1px solid rgba(29, 29, 29, 0.623);
+}  
+
+.button2 {
+    margin-top: -2px;
+    width: 130px;
+    height: 29px;
+    border: 0;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(144, 55, 228);
+    border: 1px solid rgba(29, 29, 29, 0.623);
+}
+
+.button1:hover, .button2:hover {
+    background-color: rgba(132, 50, 209, 0.911);
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+#tagName_a {
+    text-decoration: none;
+    color: black;
+}
+
+#tagName_a:hover {
+    text-decoration: underline;
+    
+}
+@media (max-width: 380px) {
+    #numeros {
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }    
+
+    .button1 {
+        margin-top: 0px;
+        border-radius: 10px 10px 10px 10px;
+    }
+}
